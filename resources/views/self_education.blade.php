@@ -1,6 +1,10 @@
-@extends('layouts.master') @section('title')
+@extends('layouts.master')
+
+@section('title')
 <title>Самообразование</title>
-@endsection('title') @section('main')
+@endsection
+
+@section('main')
 <h1>Самообразование</h1>
 
 <details>
@@ -135,30 +139,37 @@
 	<p class="h5">
 		<a href="https://www.sololearn.com/Profile/11941315">SoloLearn:</a>
 	</p>
-	<ul>
-		<li>PHP</li>
-		<li>JS</li>
-		<li>SQL</li>
-		<li>HTML</li>
-		<li>CSS</li>
-		<li>Python</li>
+	<ul class="list-group list-group-horizontal">
+		<li class="list-group-item">PHP</li>
+		<li class="list-group-item">JS</li>
+		<li class="list-group-item">SQL</li>
+		<li class="list-group-item">HTML</li>
+		<li class="list-group-item">CSS</li>
+		<li class="list-group-item">Python</li>
 	</ul>
 
 	<p class="h5">
 		<a href="https://stepik.org/users/36597017">Stepik:</a>
 	</p>
-	<ul>
-		<li>Программирование на Python</li>
-		<li>Python: Основы и применение</li>
-		<li>JavaScript для начинающих</li>
+	<ul class="list-group list-group-horizontal">
+		<li class="list-group-item">Программирование на Python</li>
+		<li class="list-group-item">Python: Основы и применение</li>
+		<li class="list-group-item">JavaScript для начинающих</li>
 	</ul>
 </details>
-Активное использование:
-<ul>
-	<li><a href="https://www.php.net">php.net</a></li>
-	<li><a href="https://laravel.ru">laravel.ru </a></li>
-	<li><a href="https://laravel.com">laravel.com </a></li>
-	<li><a href="https://learn.javascript.ru">learn.javascript.ru </a></li>
-	<li><a href="https://stackoverflow.com">stackoverflow.com</a></li>
-</ul>
-@endsection('main')
+<details>
+	<summary class="h3">Активное использование</summary>
+	<div class="list-group w-25 text-center">
+		<a class="list-group-item list-group-item-action list-group-item-info"
+			href="https://www.php.net">php.net</a> <a
+			class="list-group-item list-group-item-action list-group-item-info"
+			href="https://laravel.ru">laravel.ru </a> <a
+			class="list-group-item list-group-item-action list-group-item-info"
+			href="https://laravel.com">laravel.com </a> <a
+			class="list-group-item list-group-item-action list-group-item-info"
+			href="https://learn.javascript.ru">learn.javascript.ru </a> <a
+			class="list-group-item list-group-item-action list-group-item-info"
+			href="https://stackoverflow.com">stackoverflow.com</a>
+	</div>
+</details>
+@endsection

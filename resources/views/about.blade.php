@@ -12,6 +12,7 @@
 			<li>e-mail: miwahr@mail.ru</li>
 		</ul>
 	</li>
+	<li>Английский язык: средний</li>
 	<li>Опыт работы:
 		<table class="table table-bordered">
 			<thead class="thead-dark">
