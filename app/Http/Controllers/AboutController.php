@@ -17,4 +17,8 @@ class AboutController extends Controller
     public function self_education(){
         return view('self_education');
     }
+
+    public function about_site(){
+        return view('about_site');
+    }
 }

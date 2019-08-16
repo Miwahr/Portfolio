@@ -10,6 +10,8 @@ Route::get('/about', 'AboutController@about')->name('about');
 Route::get('/education', 'AboutController@education')->name('education');
 // самообразование
 Route::get('/self_education', 'AboutController@self_education')->name('self_education');
+// о сайте 
+Route::get('/about_site', 'AboutController@about_site')->name('about_site');
 
 
 // приложения-ввод имени

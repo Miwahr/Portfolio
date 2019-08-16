@@ -75,6 +75,7 @@
                     <a href="{{ route('education') }}">Образование</a>
                     <a href="{{ route('self_education') }}">Самообразование</a>
                     <a href="{{route('applications')}}">Приложения</a>
+                    <a href="{{route('about_site')}}">О сайте</a>
                 </div>
             </div>
         </div>

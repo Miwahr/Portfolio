@@ -16,6 +16,9 @@
       <li class="nav-item active">
         <a class="nav-link" href="{{route('applications')}}">Приложения</a>
       </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="{{route('about_site')}}">О сайте</a>
+      </li>
      </ul>
   </div>
 </nav>
