@@ -1,5 +1,3 @@
-# Dockerfile
-FROM gcr.io/r4m-devops-labs/route4me/lsi-5.7:v1
 # Install composer dependencies
 RUN composer require $PACKAGE_NAME:"~99.0.0" \
         zendframework/zend-diactoros:"~1.0" \
